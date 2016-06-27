@@ -2,10 +2,10 @@ require('pry')
 
 class Array
   define_method(:queen_attack?) do |array|
-    queen_coord = [1,1]
-    binding.pry
-    if queen_coord[1] == array[1]
+    if self[1] == array[1]
       true
+    elsif self[0] == array[0]
+      true  
     else
       false
     end
