@@ -6,8 +6,8 @@ class Array
       true
     elsif self[0] == array[0]
       true
-    elsif array[0] - self[0] == array[1] - self[1]
-      true    
+    elsif array[0] - self[0] == array[1] - self[1] 
+      true
     else
       false
     end
